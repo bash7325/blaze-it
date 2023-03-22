@@ -14,7 +14,7 @@ function updateCountdown() {
     
     if (timeLeft < 0) {
         clearInterval(updateInterval);
-        countdownTimer.innerHTML = "Time to BLAZE IT!";
+        countdownTimer.innerHTML = "Time to BLAZE IT! CONGRATULATIONS JOSH!";
     }
 }
 
