@@ -26,6 +26,9 @@ video {
     transform: translate(-50%, -50%);
     text-align: center;
     color: white;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
 }
 
 h1 {
@@ -35,4 +38,25 @@ h1 {
 
 #countdown-timer {
     font-size: 2rem;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    #countdown-timer {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    #countdown-timer {
+        font-size: 1.2rem;
+    }
 }
