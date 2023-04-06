@@ -1,5 +1,5 @@
 const countdownTimer = document.getElementById("countdown-timer");
-const babyDueDate = new Date("April 05, 2023").getTime();
+const babyDueDate = new Date("April 06, 2023").getTime();
 
 function updateCountdown() {
     const currentTime = new Date().getTime();
@@ -10,7 +10,7 @@ function updateCountdown() {
     const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
     const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
     
-    countdownTimer.innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+    countdownTimer.innerHTML = "Time to BLAZE IT! CONGRATULATIONS JOSH!";
     
     if (timeLeft < 0) {
         clearInterval(updateInterval);
