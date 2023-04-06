@@ -1,5 +1,5 @@
 const countdownTimer = document.getElementById("countdown-timer");
-const babyDueDate = new Date("April 6, 2023").getTime();
+const babyDueDate = new Date("April 05, 2023").getTime();
 
 function updateCountdown() {
     const currentTime = new Date().getTime();
